@@ -38,7 +38,7 @@ llamafactory-cli train examples/train_lora/qwen7b_lora_sft.yaml
 #### Prediction
 
 ```bash
-llamafactory-cli predict examples/train_lora/qwen7b_lora_predict.yaml
+llamafactory-cli train examples/train_lora/qwen7b_lora_predict.yaml
 ```
 
 #### Evaluation
@@ -46,7 +46,7 @@ llamafactory-cli predict examples/train_lora/qwen7b_lora_predict.yaml
 To evaluate the model on the OmniNER2024 benchmark, use the evaluate.py script. Here is how you can run the evaluation:
 
 ```bash
-python evaluate.py --path <path_to_predicted_jsonl> 
+python examples/evaluate.py --path <path_to_predicted_jsonl> 
 ```
 Replace **<path_to_predicted_jsonl>** with the path to the JSONL file generated from the prediction step.
 
