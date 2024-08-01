@@ -1,0 +1,24 @@
+### model
+model_name_or_path: /data/nlp-data/wenyuan/llm/Qwen2-1.5B-Instruct
+adapter_name_or_path: saves/qwen2_7b_xhs_benchmarks/AAAI/0718_multi_xhs_inst_qwen1.5b/lora/sft
+
+### method
+stage: sft
+do_predict: true
+finetuning_type: lora
+
+### dataset
+dataset: combined_remaining_train_0717_split_test
+template: qwen
+cutoff_len: 2048
+max_samples: 1000000
+overwrite_cache: true
+preprocessing_num_workers: 32
+
+### output
+output_dir: saves/qwen2_7b_xhs_benchmarks/AAAI/0718_multi_xhs_inst_qwen1.5b/lora/predict
+overwrite_output_dir: true
+
+### eval
+per_device_eval_batch_size: 20
+predict_with_generate: true
