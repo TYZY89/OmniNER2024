@@ -20,9 +20,10 @@ To use the OmniNER2024 benchmark with the LLaMA-Factory framework, follow these 
 
 1. **Update `data/dataset_info.json`**: Add dataset information for OmniNER2024 to the `data/dataset_info.json` file. Ensure the format and details are consistent with existing entries.
 
-2. **Add YAML Files**: Add YAML files (e.g. examples/train_lora/qwen2_7b_instruct_OmniNER_benchmarks/qwen7b_lora_sft.yaml) for training and evaluation into the `examples/train_lora` directory. Ensure the paths and dataset names in the YAML files match the entries in `data/dataset_info.json`.
+2. **Add YAML Files**: Add the YAML files from this repository (e.g., examples/train_lora/qwen2_7b_instruct_OmniNER_benchmarks/qwen7b_lora_sft.yaml) to the `examples/train_lora` directory in the llama-factory framework. Ensure the paths and dataset names in the YAML files match the entries in `data/dataset_info.json`.
 
-**Note:** **The OmniNER2024 benchmark is not yet open-sourced. However, we will be open-sourcing it soon and will update the repository with the benchmark once it is available.**
+> **Note:**
+> **The OmniNER2024 benchmark is not yet open-sourced. However, we will be open-sourcing it soon and will update the repository with the benchmark once it is available.**
 
 ### Quickstart
 
