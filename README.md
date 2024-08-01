@@ -41,7 +41,7 @@ llamafactory-cli train examples/train_lora/qwen7b_lora_sft.yaml
 llamafactory-cli predict examples/train_lora/qwen7b_lora_predict.yaml
 ```
 
-### Evaluation
+#### Evaluation
 
 To evaluate the model on the OmniNER2024 benchmark, use the evaluate.py script. Here is how you can run the evaluation:
 
@@ -49,3 +49,8 @@ To evaluate the model on the OmniNER2024 benchmark, use the evaluate.py script. 
 python evaluate.py --path <path_to_predicted_jsonl> 
 ```
 Replace **<path_to_predicted_jsonl>** with the path to the JSONL file generated from the prediction step.
+
+### OmniNER2024 using BERT
+
+For instructions on using OmniNER2024 with BERT, please refer to the examples in the `examples/BERT-NER` directory in this repository. This directory contains detailed examples and scripts for fine-tuning and evaluating BERT models on the OmniNER2024 dataset.
+
