@@ -2,7 +2,7 @@
 
 ## Acknowledgments
 
-**Our code utilizes the framework from the [LLaMA-Factory project on GitHub](https://github.com/hiyouga/LLaMA-Factory). We extend our gratitude to the contributors of this project. Additionally, we declare that the code we use adheres to the original project's copyright and licensing agreements.**
+**Our code utilizes the framework from the [LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory). We extend our gratitude to the contributors of this project. Additionally, we declare that the code we use adheres to the original project's copyright and licensing agreements.**
 
 ## Getting Started
 
