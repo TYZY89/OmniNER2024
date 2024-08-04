@@ -54,3 +54,10 @@ Replace **<path_to_predicted_jsonl>** with the path to the JSONL file generated 
 
 For instructions on using OmniNER2024 with BERT, please refer to the examples in the `examples/BERT-NER` directory in this repository. This directory contains detailed examples and scripts for fine-tuning and evaluating BERT models on the OmniNER2024 dataset.
 
+### ERRTA
+
+```bash
+python ERRTA/badcase_analysis.py
+python ERRTA/ERRTA_badcase_analysis.py
+```
+
